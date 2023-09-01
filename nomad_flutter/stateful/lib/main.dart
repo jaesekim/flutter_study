@@ -24,9 +24,9 @@ class _AppState extends State<App> {
           ),
         ),
       ),
-      home: const Scaffold(
+      home: Scaffold(
         backgroundColor: Color(0xFFF4EDDB),
-        body: Center(
+        body: const Center(
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
             MyLargeTitle(),
           ]),
@@ -46,7 +46,6 @@ class MyLargeTitle extends StatefulWidget {
 }
 
 class _MyLargeTitleState extends State<MyLargeTitle> {
-
   @override
   void initState() {
     // TODO: implement initState
